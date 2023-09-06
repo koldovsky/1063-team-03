@@ -1,0 +1,24 @@
+.about-us {
+    box-sizing: border-box;
+    display: block;
+    padding-top: 110px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.about-us__texts {
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: repeat(2, auto);
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.texts__titles {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}

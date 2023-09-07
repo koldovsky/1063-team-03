@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .wine-tasting{
-    background: url(img/field.jpg);
+    background: url(img/.wine-tasting/field.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;

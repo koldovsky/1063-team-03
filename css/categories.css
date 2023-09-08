@@ -1,0 +1,8 @@
+.info__collection-img {
+    height: 200px;
+    width: auto;
+}
+
+.highlighted-item-brand-color {
+    color: var(--brand-color);
+}

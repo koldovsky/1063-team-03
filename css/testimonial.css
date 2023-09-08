@@ -1,0 +1,61 @@
+.heading__title {
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+
+.heading__subtitle {
+    font-size: 52px;
+    font-family: 'Cormorant Infant', serif;
+}
+
+.heading__text {
+    font-size: 19px;
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+}
+
+
+.testimonials__carousel {
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.testimonials__carousel img {
+    width: 70px;
+}
+
+hr {
+    padding: 15px 0;
+    height: 2px;
+}
+
+.testimonials__events {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 20px;
+    padding-bottom: 110px;
+}
+
+.testimonials_event {
+    height: 253px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+}
+
+.event__name {
+    padding: 10px 0;
+}
+
+
+.testimonials__events img {
+    width: 210px;
+}
+

@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .wine-tasting{
     background: url(/img/wine-tasting/field.jpg);
     background-repeat: no-repeat;

@@ -1,0 +1,42 @@
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	z-index: 5;
+	width: 100%;
+}
+.header__contact{
+	height: 52px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__contact span > span{
+	color:white;
+}
+.header__contact span{
+	color: #94929E;
+}
+.header__nav{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 130px;
+}
+.header__menu{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header__nav ul li{
+	text-decoration: none;
+	margin: 0 10px;
+	list-style: none;
+}
+.header__menu-item a{
+	font-weight: 500;
+	color: #94929E;
+}

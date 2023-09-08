@@ -1,0 +1,12 @@
+.tasting{
+    background: url(/img/wine-tasting/field.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+h2 {
+    color: #BC6E44;
+    font-size: 12px;
+}

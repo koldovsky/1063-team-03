@@ -1,8 +1,12 @@
 .wine-club {
-    background-color: #f6f2eb;
+    background-color: var(--section-background-color);
 }
 
 .wine-club__benefits{
+    background-color: transparent;
+}
+
+.benefits__item {
     background-color: white;
 }
 

@@ -1,11 +1,77 @@
 .wine-club {
-    background-color: #f6f2eb;
+    background-color: var(--section-background-color);
+}
+
+.wine-club__heading{
+    padding: 4%;
 }
 
 .wine-club__benefits{
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
-.item__img {
-    width: 200px;
+.wine-club__benefits > div {
+    margin: 10%;
+    padding: 5%;
+}
+
+.benefits__item {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    align-content: space-between;
+    display: grid;
+    grid-template-rows: 33% 40% 0 33%;    
+}
+
+.benefits__item .item__img {
+    padding: 30%;
+}
+
+.benefits__item .item__title{
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.benefits__item .item__description{
+    color: #837d71;
+}
+
+.wine-club__invitation{
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.wine-club__invitation .invitation__title{
+    color: #544e4c;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.wine-club .invitation__subtitle{
+    padding: 1%;
+    color: #837d71;
+}
+
+.wine-club .invitation__subtitle__email{
+    color:black;
+}
+
+
+@media (min-width: 770px) {
+    .wine-club__benefits{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 990px) {
+    .wine-club__benefits{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

@@ -1,34 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400&family=Spectral+SC:wght@200;300&family=Spectral:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400&family=Spectral+SC:wght@200;300&family=Spectral:wght@200&display=swap");
 
-.tasting{
+.tasting {
     background: url(/img/wine-tasting/field.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     min-height: 500px;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
-.tasting__white.square{
-    width: 272px; 
+.tasting__white.square {
+    width: 272px;
     height: 456.789px;
     background-color: rgb(225, 225, 225);
     position: absolute;
     margin: 0;
-    margin-right: 0; 
-    line-height: 22.5px
-}
- 
-h2 {
-     color: #BC6E44;
-     font-family: 'Cormorant Infant', serif;
-     font-family: 'Spectral', serif;
-     font-family: 'Spectral SC', serif;
-
-}
-p{
-    color: #2a282a; 
-}
-span{
-     color:#BC6E44;
+    margin-right: 0;
+    line-height: 22.5px;
 }

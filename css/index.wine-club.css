@@ -14,17 +14,21 @@
 }
 
 .wine-club__benefits > div {
-    margin: 5%;
+    margin: 10%;
+    padding: 5%;
 }
 
 .benefits__item {
     background-color: white;
     text-align: center;
     align-items: center;
+    align-content: space-between;
+    display: grid;
+    grid-template-rows: 33% 40% 0 33%;    
 }
 
 .benefits__item .item__img {
-    padding: 25%;
+    padding: 30%;
 }
 
 .benefits__item .item__title{

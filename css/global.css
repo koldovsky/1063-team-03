@@ -13,6 +13,8 @@ img {
 
 :root {
     --brand-color: #bc6e44;
+    --main-text-color: #2a2824;
+    --sub-text-color: #837d71;
 }
 
 a {

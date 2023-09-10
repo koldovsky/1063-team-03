@@ -1,8 +1,52 @@
-.info__collection-img {
+.info-img {
     height: 200px;
     width: auto;
 }
 
 .highlighted-item-brand-color {
     color: var(--brand-color);
+}
+
+.content__top-section {
+    background-image: url(/img/img.categories.partial/categories_background.png);
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+}
+
+.main-text {   
+    color: var(--main-text-color);
+}
+
+.sub-text {
+    color: var(--sub-text-color);
+}
+
+.link-text {
+    color: #544e4c;
+}
+
+@media (min-width: 600px) {
+    
+    .content__info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 900px) {
+    
+    .content__info {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    
+    .content__info {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
 }

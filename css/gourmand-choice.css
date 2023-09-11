@@ -42,12 +42,21 @@
 }
 
 .gourmand-choice__carousel--wine-description {
-  color: #bc6e44;
+  color: var(--brand-color);
   font-family: "Cormorant Infant", serif;
   font-family: "Spectral", serif;
   font-family: "Spectral SC", serif;
   font-size: 14px;
   font-style: italic;
+}
+
+.gourmand-choice__button {
+  font-family: "Spectral SC", serif;
+  font-size: 16.5px;
+  display: inline-block;
+  padding: 24px 67px;
+  background-color: var(--brand-color);
+  color: white;
 }
 
 @media (min-width: 500px) {

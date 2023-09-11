@@ -40,3 +40,12 @@
 	font-weight: 500;
 	color: #94929E;
 }
+@media (max-width:425px) {
+	.header .header__contact{
+		display: none;
+	}
+	.header__nav{
+		display: flex;
+		flex-direction: column;
+	}
+}

@@ -1,5 +1,5 @@
 .info-img {
-    height: 200px;
+    height: 70px;
     width: auto;
 }
 
@@ -49,4 +49,21 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+}
+
+.button {
+    background-color: var(--brand-color);
+    padding: 5px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 2px;
+}
+
+.button-text {
+    color: #fff;
+}
+
+.categories__content {
+    max-width: 1200px;
+    margin: auto;
 }

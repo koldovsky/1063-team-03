@@ -75,6 +75,22 @@
   transition: 0.2s;
 }
 
+.swiper {
+  height: 700px;
+  background-color: #ccc; /*temp*/
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.gourmand-choice img {
+  max-height: 400px;
+  width: auto;
+}
+
 @media (min-width: 500px) {
   .gourmand-choice__carousel {
     display: grid;

@@ -1,4 +1,4 @@
-<section class="gourmand-choice">
+<section class="gourmand-choice wrapper">
   <div class="heading__title">
     <h2 class="gourmand-choice__header">~ GOURMAND CHOICE ~</h2>
   </div>
@@ -22,81 +22,108 @@
   </div>
   <!-- TODO: create a carousel for next images -->
 
-  <div class="gourmand-choice__carousel">
-    <article class="gourmand-choice__wine-card">
-      <div>
-        <img
-          class="wine-carousel__image"
-          src="img/wine-carousel/wine_grenache-rose.png"
-          alt="A bottle of Grenache Rose"
-        />
+  <div class="gourmand-choice__carousel swiper">
+    <div class="swiper-wrapper">
+      <article class="gourmand-choice__wine-card swiper-slide">
+        <div>
+          <img
+            class="wine-carousel__image"
+            src="img/wine-carousel/wine_grenache-rose.png"
+            alt="A bottle of Grenache Rose"
+          />
+          <div class="gourmand-choice__carousel--underpicture-text">
+            <h3 class="heading__subtitle gourmand-choice__carousel--wine-name">
+              GRENACHE ROSE
+            </h3>
+            <p class="gourmand-choice__carousel--wine-description">
+              Vintage wine (2000)
+            </p>
+            <a
+              href="#"
+              class="gourmand-choice__button gourmand-choice__button--text"
+              >Tasting</a
+            >
+          </div>
+        </div>
+      </article>
+
+      <article class="gourmand-choice__wine-card swiper-slide">
         <div class="gourmand-choice__carousel--underpicture-text">
-          <h3 class="heading__subtitle gourmand-choice__carousel--wine-name">
-            GRENACHE ROSE
-          </h3>
-          <p class="gourmand-choice__carousel--wine-description">
-            Vintage wine (2000)
-          </p>
-          <a href="#" class="gourmand-choice__button gourmand-choice__button--text" >Tasting</a>
+          <img
+            class="wine-carousel__image"
+            src="img/wine-carousel/wine_pinot-noir.png"
+            alt="A bottle of Pinot Noir"
+          />
+          <div>
+            <h3 class="heading__subtitle gourmand-choice__carousel--wine-name">
+              PINOT NOIR
+            </h3>
+            <p class="gourmand-choice__carousel--wine-description">
+              Vintage wine (1999)
+            </p>
+            <a
+              href="#"
+              class="gourmand-choice__button gourmand-choice__button--text"
+              >Tasting</a
+            >
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
 
-    <article class="gourmand-choice__wine-card">
-      <div class="gourmand-choice__carousel--underpicture-text">
-        <img
-          class="wine-carousel__image"
-          src="img/wine-carousel/wine_pinot-noir.png"
-          alt="A bottle of Pinot Noir"
-        />
-        <div>
-          <h3 class="heading__subtitle gourmand-choice__carousel--wine-name">
-            PINOT NOIR
-          </h3>
-          <p class="gourmand-choice__carousel--wine-description">
-            Vintage wine (1999)
-          </p>
-          <a href="#" class="gourmand-choice__button gourmand-choice__button--text">Tasting</a>
+      <article class="gourmand-choice__wine-card swiper-slide">
+        <div class="gourmand-choice__carousel--underpicture-text">
+          <img
+            class="wine-carousel__image"
+            src="img/wine-carousel/wine_portwine.png"
+            alt="A bottle of Port Wine"
+          />
+          <div>
+            <h3 class="heading__subtitle gourmand-choice__carousel--wine-name">
+              PORT WINE
+            </h3>
+            <p class="gourmand-choice__carousel--wine-description">
+              Fortified wine
+            </p>
+            <a
+              href="#"
+              class="gourmand-choice__button gourmand-choice__button--text"
+              >Tasting</a
+            >
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
 
-    <article class="gourmand-choice__wine-card">
-      <div class="gourmand-choice__carousel--underpicture-text">
-        <img
-          class="wine-carousel__image"
-          src="img/wine-carousel/wine_portwine.png"
-          alt="A bottle of Port Wine"
-        />
-        <div>
-          <h3 class="heading__subtitle gourmand-choice__carousel--wine-name">
-            PORT WINE
-          </h3>
-          <p class="gourmand-choice__carousel--wine-description">
-            Fortified wine
-          </p>
-          <a href="#" class="gourmand-choice__button gourmand-choice__button--text">Tasting</a>
+      <article class="gourmand-choice__wine-card swiper-slide">
+        <div class="gourmand-choice__carousel--underpicture-text">
+          <img
+            class="wine-carousel__image"
+            src="img/wine-carousel/wine_eiswein.png"
+            alt="A bottle of Eiswein"
+          />
+          <div>
+            <h3 class="heading__subtitle gourmand-choice__carousel--wine-name">
+              EISWEIN
+            </h3>
+            <p class="gourmand-choice__carousel--wine-description">
+              Dessert wine
+            </p>
+            <a
+              href="#"
+              class="gourmand-choice__button gourmand-choice__button--text"
+              >Tasting</a
+            >
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
 
-    <article class="gourmand-choice__wine-card">
-      <div class="gourmand-choice__carousel--underpicture-text">
-        <img
-          class="wine-carousel__image"
-          src="img/wine-carousel/wine_eiswein.png"
-          alt="A bottle of Eiswein"
-        />
-        <div>
-          <h3 class="heading__subtitle gourmand-choice__carousel--wine-name">
-            EISWEIN
-          </h3>
-          <p class="gourmand-choice__carousel--wine-description">
-            Dessert wine
-          </p>
-          <a href="#" class="gourmand-choice__button gourmand-choice__button--text">Tasting</a>
-        </div>
-      </div>
-    </article>
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
   </div>
 </section>

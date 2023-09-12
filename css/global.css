@@ -43,7 +43,7 @@ a {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     color: var(--brand-color);
 }
 
@@ -57,7 +57,7 @@ a {
 }
 
 .heading__text {
-    font-size: 19px;
+    font-size: 17px;
     font-family: "Spectral", serif;
     font-weight: 500;
     line-height: 28px;

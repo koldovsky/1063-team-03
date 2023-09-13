@@ -24,7 +24,8 @@
 	color:#ffffff;
 	text-align: center;
 	font-size: 58px;
-	font-family: "Cormorant Infant", serif;
+	font-weight: 300;
+	font-family: 'Cormorant Infant', serif;
 }
 .welcome__info{
 	margin-top: 130px;
@@ -52,7 +53,7 @@
 	text-align: left;
 }
 .welcome__links-link{
-	font-size: 30px;
+	font-size: 33px;
 	color: white;
 	font-family: "Cormorant Infant", serif;
 }
@@ -76,6 +77,7 @@
 	.welcome__info .welcome__info-pinot{
 		font-size: 12px;
 		text-align: center;
+		font-weight: 300;
 	}
 	.welcome__info .welcome__info-wish{
 		text-align: center;

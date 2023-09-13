@@ -1,0 +1,123 @@
+.gourmand-choice {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  word-wrap: break-word;
+  max-width: fit-content;
+}
+.gourmand-choice__header {
+  font-size: 12px;
+}
+
+.gourmand-choice__subheader {
+  font-weight: 600;
+}
+
+.gourmand-choice__text--sign-up {
+  color: var(--sub-text-color);
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.gourmand-choice__text--main {
+  color: var(--sub-text-color);
+}
+
+.wine-carousel__image {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gourmand-choice__carousel--underpicture-text {
+  display: block;
+  text-align: center;
+}
+
+.gourmand-choice__carousel--wine-name {
+  font-size: 12px;
+}
+
+.gourmand-choice__carousel--wine-description {
+  color: var(--brand-color);
+  font-family: "Spectral", serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.gourmand-choice__button {
+  display: inline-block;
+  padding: 12px 33px;
+  background-color: var(--brand-color);
+  border-style: solid;
+  border-radius: 1px;
+  border-color: var(--brand-color);
+  margin: 20px 0;
+}
+
+.gourmand-choice__button--text {
+  color: white;
+  font-family: "Spectral", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.gourmand-choice__button:hover {
+  transition: 0.5s;
+  background-color: black;
+}
+
+.gourmand-choice__button:not(:hover) {
+  transition: 0.2s;
+}
+
+.swiper {
+  height: 700px;
+  background-color: #ccc; /*temp*/
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.gourmand-choice img {
+  max-height: 400px;
+  width: auto;
+}
+
+@media (min-width: 500px) {
+  .gourmand-choice__carousel {
+    display: grid;
+  }
+  .wine-carousel__image {
+    display: flex;
+    width: auto;
+    max-height: 685px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 765px) {
+  .gourmand-choice__carousel {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .wine-carousel__image {
+    max-height: 463px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .gourmand-choice__carousel {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

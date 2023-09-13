@@ -1,10 +1,13 @@
-@import url(./fonts.css);
 @import url(./global.css);
-@import url(./about.css);
+@import url(./fonts.css);
 @import url(./header.css);
 @import url(./welcome.css);
+@import url(./about.css);
+@import url(./gourmand-choice.css);
+@import url(./categories.css);
+@import url(./testimonial.css);
 @import url(./tasting.css);
 @import url(./index.wine-club.css);
-@import url(./testimonial.css);
-@import url(./categories.css);
-@import url(index.gourmand-choice.css);
+
+
+

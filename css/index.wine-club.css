@@ -24,7 +24,7 @@
     align-items: center;
     align-content: space-between;
     display: grid;
-    grid-template-rows: 33% 40% 0 33%;    
+    /* grid-template-rows: 33% 1fr 1fr 33%;     */
 }
 
 .benefits__item .item__img {
@@ -61,6 +61,16 @@
     color:black;
 }
 
+.wine-club__benefits .wrapper {
+    width: 100%;
+}
+
+.wine-club .item__divider {
+    width: 30%;
+    height: 2px;
+    background-color: var(--brand-color);
+    margin: auto;
+}
 
 @media (min-width: 770px) {
     .wine-club__benefits{

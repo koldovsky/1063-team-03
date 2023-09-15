@@ -37,7 +37,7 @@
 }
 
 .benefits__item .item__description{
-    color: #837d71;
+    color: var(--sub-text-color);
 }
 
 .wine-club__invitation{
@@ -54,7 +54,7 @@
 
 .wine-club .invitation__subtitle{
     padding: 1%;
-    color: #837d71;
+    color: var(--sub-text-color);
 }
 
 .wine-club .invitation__subtitle__email{

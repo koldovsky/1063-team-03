@@ -11,6 +11,11 @@
 }
 
 @media (min-width: 1000px) {
+  .gourmand-choice {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .gourmand-choice .wrapper {
     width: 1200px;
   }

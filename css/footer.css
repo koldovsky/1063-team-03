@@ -1,0 +1,25 @@
+.footer{
+	width: 100%;
+	background: #2a2824;
+	height: 400px;
+}
+.footer__wrapper{
+	display: flex; 
+	flex-direction: column;
+}
+.wrapper__about-winery{
+	width: 50%;
+	height: 100%;
+}
+.wrapper__about-us{
+	width: 50%;
+	height: 100%;
+}
+.wrapper__about-winery .logo-footer img{
+	width: 85px;
+	color: #94929E;
+}
+.wrapper__about-winery span{
+	width: 100%;
+	color: #94929E;
+}

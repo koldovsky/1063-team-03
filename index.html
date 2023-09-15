@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pinot Noir</title>
-    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/index.css" />
-</head>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
 
-<body>
+  <body>
     <header data-include="partials/index.header.partial.html"></header>
     <main>
-        <!-- Vova Romaniuk - Header and Welcome sections -->
+      <!-- Vova Romaniuk - Header and Welcome sections -->
 
-        <section data-include="partials/index.welcome.partial.html"></section>
-        <section data-include="partials/index.about.partial.html"></section>
+      <section data-include="partials/index.welcome.partial.html"></section>
+      <section data-include="partials/index.about.partial.html"></section>
+      <!-- Hlib Dzekunov - Wine Carousel Section -->
+      <section
+        data-include="partials/index.gourmand-choice.partial.html"
+      ></section>
+
+      <!-- Artur Ventlyand - Categories section -->
+      <section data-include="partials/index.categories.partial.html"></section>
+
+      <!-- liliia Ishchenko - Testimonials section -->
+      <section
+        data-include="partials/index.testimonials.partial.html"
+      ></section>
 
       <!-- Mariana Golota - Wine Tasting section-->
       <section data-include="partials/index.tasting.partial.html"></section>
@@ -35,10 +46,11 @@
 
         <!-- Danylo Pavlusenko - Wine club section -->
         <section data-include="partials/index.wine-club.partial.html"></section>
+      <!-- Danylo Pavlusenko - Wine club section -->
+      <section data-include="partials/index.wine-club.partial.html"></section>
     </main>
-        <footer data-include="partials/index.footer.partial.html"></footer>
-        <!-- Andrii Buchko - Footer Section -->
+    <footer data-include="partials/index.footer.partial.html"></footer>
+    <!-- Andrii Buchko - Footer Section -->
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-</body>
-
+  </body>
 </html>

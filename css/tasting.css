@@ -1,12 +1,29 @@
-.tasting{
-    background: url(/img/wine-tasting/field.jpg);
-    background-repeat: no-repeat;
+.tasting {
+    background: url(../img/wine-tasting/field.jpg);
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
+    min-height: 500px;
+    justify-content: space-around;
+    padding-top: 50px;
 }
 
-h2 {
-    color: #BC6E44;
-    font-size: 12px;
+
+.tasting__white.square {
+    width: 343px;
+    height: 396px;
+    background-color: var(--section-background-color);
+    margin-left: 10%;
+    line-height: 22.5px;
+    padding: 40px;
 }
+
+.tasting__title {
+    color: var(--brand-color);
+}
+
+.section__subtitle {
+    color: var(--main-text-color);
+    
+}
+

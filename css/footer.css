@@ -144,3 +144,9 @@
 }
 >>>>>>> b44721b (added footer)
 }
+
+.footer__nav {
+    text-transform: uppercase;
+    color: #fff;
+    
+}

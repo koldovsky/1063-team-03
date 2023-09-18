@@ -21,7 +21,7 @@
 	text-align: center;
 }
 .welcome__info .welcome__info-wish{
-	color:#ffffff;
+	color:var(--section-background-color);
 	text-align: center;
 	font-size: 58px;
 	font-weight: 300;
@@ -54,7 +54,7 @@
 }
 .welcome__links-link{
 	font-size: 33px;
-	color: white;
+	color: var(--section-background-color);
 	font-family: "Cormorant Infant", serif;
 }
 .welcome__links-description{
@@ -66,9 +66,17 @@
 	width: 100%;
 	height: 2px;
 	margin: 15px 0;
-	background: #9a9a9a;
+	background: var(--);;
 	border-radius: 50%;
 	opacity: 0.7;
+}
+@media (max-width:769px) {
+	.welcome__links{
+		display: grid;
+		width: 100%;
+		padding: 0 20px;
+		grid-template-columns: 1fr 1fr;
+	}
 }
 @media (max-width:425px) {
 	.welcome{

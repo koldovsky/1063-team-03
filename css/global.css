@@ -12,7 +12,6 @@ img {
 }
 
 :root {
-<<<<<<< HEAD
     --brand-color: #bc6e44;
     --main-text-color: #2a2824;
     --sub-text-color: #837d71;
@@ -21,13 +20,6 @@ img {
     --container-menu-active:#13100be6;
     --background-header-contact-us:#0c0c0c80;
     font-family: 'Spectral', serif;
-=======
-  --brand-color: #bc6e44;
-  --main-text-color: #2a2824;
-  --sub-text-color: #837d71;
-  --section-background-color: #faf8f2;
-  font-family: "Spectral", serif;
->>>>>>> c48764f5fe44b467313639f65d042d4ed6abf654
 }
 
 a {

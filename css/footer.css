@@ -1,7 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 .footer_wrapper{
+=======
+
+
+.footer__wrapper{
+>>>>>>> bde7aa4 (footer is ready)
 	position: relative;
 	width: 100vw;
 	height: 422px;
@@ -9,6 +15,7 @@
 	flex-direction: column;
 	align-items: center;
 	background: #2a2824;
+<<<<<<< HEAD
 }
 
 
@@ -143,10 +150,84 @@
 	}
 }
 >>>>>>> b44721b (added footer)
+=======
+>>>>>>> bde7aa4 (footer is ready)
 }
 
-.footer__nav {
-    text-transform: uppercase;
-    color: #fff;
-    
+
+.footer__info {
+	width: 100%;
+	height: 300px;
+	margin: 50px 0 20px 0;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 1px solid #ffffff;
+}
+
+
+.footer__logo-wrapper {
+	position: relative;
+	max-width: 570px;
+}
+
+.footer__logo {
+	width: 80px;
+	margin-bottom: 15px;
+}
+
+
+.footer__logo-info {
+	color: rgba(255,255,255, 0.6);
+}
+
+
+.footer__contacts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+
+.footer__span {
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #bc6e44;
+}
+
+
+.footer__contact {
+	font-size: 25px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.footer__routes-wrapper {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.footer__routes {
+
+}
+
+
+.route {
+	margin-left: 30px;
+	font-size: 15px;
+	color: rgba(255,255,255, 0.6);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+.footer__creators {
+	font-size: 15px;
+	color: rgba(255,255,255, 0.6);
 }

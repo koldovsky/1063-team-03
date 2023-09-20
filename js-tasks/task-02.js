@@ -2,7 +2,7 @@
 //https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
 
 function stringToArray(string) {
-  var wordsArray = string.split(" ");
+  const wordsArray = string.split(" ");
   return wordsArray;
 }
 

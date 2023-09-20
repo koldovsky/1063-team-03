@@ -8,14 +8,17 @@
 }
 
 .content__top-section {
-    background-image: url(../img/img.categories.partial/categories_background.png);
+    background-image: url(../img/img.categories.partial/categories_background_top.png);
     background-size: cover;
     min-height: 400px;
     background-position: center;
 }
 
 .content__bottom-section {
-    background-color: #544e4c;
+    background-image: url(../img/img.categories.partial/categories_background_bottom.png);
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
 }
 
 .main-text {   

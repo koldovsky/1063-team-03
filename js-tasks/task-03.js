@@ -19,7 +19,7 @@ function circleCircumference(circle) {
 
 function giveMeFive(obj) {
     let arrayForResult = [];
-    for (var key in obj) {
+    for (const key in obj) {
       if (key.length === 5) {
         arrayForResult.push(key);
       }

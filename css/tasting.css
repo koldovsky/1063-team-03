@@ -3,27 +3,36 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 500px;
-    justify-content: space-around;
-    padding-top: 50px;
+    min-height: 100vh;
 }
 
 
-.tasting__white.square {
-    width: 343px;
-    height: 396px;
-    background-color: var(--section-background-color);
-    margin-left: 10%;
-    line-height: 22.5px;
-    padding: 40px;
-}
 
-.tasting__title {
-    color: var(--brand-color);
-}
-
-.section__subtitle {
-    color: var(--main-text-color);
+.tasting__text {
+    .tasting__title {
+        color: var(--brand-color);
+    }
     
+    .section__subtitle {
+        color: var(--main-text-color);
+    }
 }
+
+@media (max-width: 768px) {  
+    .tasting__white.square {
+        margin-left: 10%;
+        line-height: 22.5px;
+    }
+}        
+        
+@media (min-width: 200px) {
+    .tasting__white.square {
+        width: 50vh;
+        height: 60vh;
+        background-color: var(--section-background-color);
+        padding: 40px;
+        padding-top: 50px;
+    }
+}
+
 

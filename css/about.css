@@ -7,6 +7,17 @@
     padding-bottom: 30px;
 }
 
+@media (min-width: 1000px) {
+    .about-us {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .about-us {
+        width: 1200px;
+    }
+}
+
 .texts__titles-title {
     font-family: Spectral, serif;
     font-size: 12px;
@@ -57,22 +68,35 @@
     margin-left: -15px;
     margin-right: -15px;
     font-size: 17px;
+    margin-bottom: 55px;
+}
+
+@media (min-width: 770px) {
+    .about-us__statistic {
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        gap: 30px;
+        margin-top: 50px;
+    }
 }
 
 .about-us__statistic-theme {
-    margin-top: 50px;
+    max-width: 20%;
     display: flex;
+    flex-basis: 20%;
     flex-direction: column;
 }
 
 .about-us__statistic-value {
     font-family: "Cormorant Infant", serif;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 500px;
     line-height: 36px;
     color: var(--brand-color);
     font-style: italic;
     padding-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .about-us__statistic-line {
@@ -88,4 +112,19 @@
     color: rgb(131, 125, 113);
     font-weight: 400;
     padding-top: 15px;
+}
+
+.about-us__video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.about-us__video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

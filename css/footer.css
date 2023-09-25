@@ -1,25 +1,147 @@
-.footer{
-	width: 100%;
-	background: #2a2824;
-	height: 400px;
-}
 .footer__wrapper{
-	display: flex; 
+	position: relative;
+	width: 100vw;
+	height: 414.92px;
+	display: flex;
 	flex-direction: column;
+	align-items: center;
+	background: #2a2824;
 }
-.wrapper__about-winery{
-	width: 50%;
-	height: 100%;
-}
-.wrapper__about-us{
-	width: 50%;
-	height: 100%;
-}
-.wrapper__about-winery .logo-footer img{
-	width: 85px;
-	color: #94929E;
-}
-.wrapper__about-winery span{
+
+
+.footer__info {
 	width: 100%;
-	color: #94929E;
+	height: 322.22px;
+	margin: 0px 0 0px 0;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 1px solid #ffffff;
+	max-width: 1200px;
+
+}
+
+
+.footer__logo-wrapper {
+	position: relative;
+	max-width: 570px;
+}
+
+.footer__logo {
+	width: 80px;
+	margin-bottom: 15px;
+}
+
+
+.footer__logo-info {
+	color: rgba(255,255,255, 0.6);
+}
+
+
+.footer__contacts {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction:column;
+}
+
+
+.footer__span {
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #bc6e44;
+}
+
+
+.footer__contact {
+	font-size: 25px;
+	color: #ffffff;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+
+.footer__routes-wrapper {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	height: 92px;
+}
+
+
+.footer__routes {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.route {
+	margin-left: 30px;
+	font-size: 15px;
+	color: rgba(255,255,255, 0.6);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+.route:hover {
+	color: #ffffff;
+	text-decoration: 1px #ffffff;
+}
+
+
+.footer__creators {
+	font-size: 15px;
+	color: rgba(255,255,255, 0.6);
+}
+
+
+
+
+@media (max-width: 1200px) {
+	.footer__routes {
+		flex-direction: column;
+	}
+
+	.route {
+		margin: 15px 0 0 0;
+	}
+}
+
+
+
+@media (max-width: 845px){
+	.footer_info {
+		flex-direction: column;
+		text-align : center
+	}
+
+
+	.footer__contacts {
+		margin-bottom: 20px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer__contact {
+		font-size: 20px;
+	}
+
+	.footer__routes-wrapper {
+		margin-bottom: 20px;
+		flex-direction: column;
+	}
+
+	.footer__logo-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 }

@@ -26,12 +26,7 @@
     line-height: 20.4px;
     text-transform: uppercase;
     text-align: left;
-}
-
-.texts__titles {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    color: var(--brand-color);
 }
 
 .texts__titles-subtitle {
@@ -47,6 +42,20 @@
     text-decoration-style: solid;
 }
 
+@media (min-width: 770px) {
+    .texts__titles-subtitle {
+        font-size: 45px;
+        line-height: 49.5px;
+    }
+}
+
+@media (min-width: 950px) {
+    .texts__titles-subtitle {
+        font-size: 52px;
+        line-height: 52.8px;
+    }
+}
+
 .texts__text {
     margin-top: 60px;
     font-family: Spectral, serif;
@@ -57,6 +66,16 @@
 
 .texts__text-p {
     color: rgb(131, 125, 113);
+}
+
+@media (min-width: 1000px) {
+    .texts__titles {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .texts__text {
+        margin-top: 25px;
+    }
 }
 
 .about-us__statistic {

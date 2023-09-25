@@ -12,12 +12,18 @@
     align-items: center;
 }
 
+
+
 .testimonials__carousel {
     margin-top: 45px;
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.testimonials__carousel__items{
+    display: flex;
 }
 
 .testimonials .carousel__item {
@@ -110,16 +116,17 @@ hr {
     width: 30px;
     height: 30px;
     border: none;
+    cursor: pointer;
 
 }
 
-.testimonials__carousel-dots {
+.products__carousel-indicators {
     margin-top: 20px;
     margin-bottom: 50px;
     display: flex;
 }
 
-.testimonials .carousel__dot {
+.testimonials .products__carousel-indicator {
     list-style-type: none;
     width: 15px;
     height: 15px;
@@ -127,10 +134,11 @@ hr {
     margin: 10px;
     border-radius: 100%;
     background-color: #d2986b;
+    cursor: pointer;
 
 }
 
-.carousel__dot:hover {
+.products__carousel-indicator:hover {
     background-color: var(--brand-color);
 }
 

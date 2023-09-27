@@ -31,6 +31,14 @@
     }
 }
 
+.tasting__clock {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
 #clock {
     font-size: 200%;
     font-weight: bold;

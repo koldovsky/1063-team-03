@@ -71,7 +71,7 @@
 
 .photo-news-wine {
     min-height: 290px;
-    background: url(/img/blog/news-wine-man.jpg);
+    background: url(img/blog/news-wine-man.jpg);
     background-position: center;
     background-size: cover;
 
@@ -79,14 +79,14 @@
 
 .photo-news-shelf {
     min-height: 290px;
-    background: url(/img/blog/news-wine-shelf.jpg);
+    background: url(img/blog/news-wine-shelf.jpg);
     background-position: center;
     background-size: cover;
 } 
 
 .photo-news-field {
     min-height: 290px;
-    background: url(/img/blog/news-wine-field.jpg);
+    background: url(img/blog/news-wine-field.jpg);
     background-position: center;
     background-size: cover;
 } 

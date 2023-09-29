@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <div class="wrapper">
+
         <header class="header">
             <div class="header__contact">
                 <div class="wrapper">
@@ -91,17 +91,18 @@
                 </div>
             </nav>
         </header>
-        <section class="welcome">
+        <section class="welcome contacts__page">
             <div class="welcome__info">
-                <p class="welcome__info-pinot">Contact Us</p>
+                <p class="welcome__info-pinot"><em>Contact Us</em></p>
                 <hr>
                 <div class="crumbs">
                     <a href="#">Home  ></a>
-                    <a href="#">Contact Us</a>
+                    <a href="#"><u>Contact Us</u></a>
                 </div>
             </div>
         </section>
         <section class="contacts__visit-us">
+           <div class="wrapper">
             <div class="winery-visit">
                 <div class="winery-visit__content">
                     <header class="section-heading">
@@ -110,101 +111,115 @@
                         <p class="heading__text">Find out more about the possibilities of visiting our winery.</p>
                     </header>
                     <div class="information">
-                        <div>
-                            <!-- <img src="" alt=""> -->
-                            <a href="#">Terms&Conditions</a>
-                    </div>
-                        <div>
-                            <!-- <img src="" alt=""> -->
-                            <a href="#">Privacy Policy</a>
-                    </div>
-                        <div>
-                            <!-- <img src="" alt=""> -->
-                            <a href="#">Legal Information</a>
+                            <a href="#"><u>Terms&Conditions</u></a>
+                            <a href="#"><u>Privacy Policy</u></a>
+                            <a href="#"><u>Legal Information</u></a>
                     </div>
                     </div>
                     <p class="content-text">All guests should dress appropriately and refrain from wearing strong perfumes or colognes. We also ask you to be mindful of the tasting etiquette and follow instructions of our staff.</p>
-                    <ul>
-                        <li>No outside food or drink is allowed;</li>
-                        <li>Smoking is not allowed in the tasting room;</li>
-                        <li>Pets are not allowed in the tasting room.</li>
+                    <ul class="winery-visit__conditions">
+                        <li class="conditions-item">No outside food or drink is allowed;</li>
+                        <li class="conditions-item">Smoking is not allowed in the tasting room;</li>
+                        <li class="conditions-item">Pets are not allowed in the tasting room.</li>
                     </ul>
                 </div>
                 <form action="#">
                     <input name="name" type="text" placeholder="Enter your full name*">
                     <input name="number-phone" type="tel" placeholder="Enter your phone number*">
                     <input name="email" type="email" placeholder="Enter your e-mail">
-                    <textarea name=massage"" cols="30" rows="10" placeholder="Type your message"></textarea>
+                    <textarea name=massage"" cols="30" rows="5" placeholder="Type your message"></textarea>
                     <button type="submit">Send</button>
                 </form>
-            </div>
-            <div>
-                <p class="content-text">It is strongly recommended that you book in advance if you wish to attend a wine tasting event. This ensures that you have a place booked and means that the event organizers can plan accordingly. Booking in advance also means that you can take advantage of any discounts or special offers that may be available. Our wine tasting events are in high demand and it is important to ensure that you are able to attend by booking your place in advance.</p>
-            </div>
+           
+            <p class="content-text">It is strongly recommended that you book in advance if you wish to attend a wine tasting event. This ensures that you have a place booked and means that the event organizers can plan accordingly. Booking in advance also means that you can take advantage of any <u> discounts or special offers</u> that may be available. Our wine tasting events are in high demand and it is important to ensure that you are able to attend by booking your place in advance.</p>
             <div class="guided-tours">
                 <div class="guided-tours__content">
                     <h3 class="guided-tours__title">Guided Tours</h3>
-                    <p class="content-text"></p>
-                    <p class="content-text"></p>
-                    <ul>
-                        <li>
-                            <h4>Delicious wine</h4>
+                    <p class="content-text">Book a guided tour at a winery and discover the wonderful world of wine. Enjoy the breathtaking views and learn about the process of winemaking. </p>
+                    <p class="content-text">Our knowledgeable guides will lead you through the vineyards, explaining how grapes are grown, harvested and made into wine. Sample delicious wines while taking in the scenery of the beautiful vineyards. </p>
+                    <ul class="guided-tours__preferences">
+                        <li class="guided-tours__preference">
+                            <div>
+                                <h4 class="preference-title">Delicious wine</h4>
                             <p class="content-text">Enjoy the taste of our selected wines.</p>
+                            </div>
                         </li>
-                        <li>
-                            <h4>History of winemaking</h4>
-                            <p class="content-text">Enjoy the taste of our selected wines.</p>
+                        <li class="guided-tours__preference">
+                           <div>
+                            <h4 class="preference-title">History of winemaking</h4>
+                            <p class="content-text">Learn more about winemaking processes.</p>
+                           </div>
                         </li>
                     </ul>
                 </div>
                 <div class="guided-tours__question">
-                    <ul>
-                        <li>
-                            <div>
-                                <p class="questions">What should I wear to a winery visit?</p>
-                                <button></button>
+                    <ul class="question-list">
+                        <li class="list-item">
+                            <div class="question">
+                                <p class="question-text">What should I wear to a winery visit?</p>
+                                <div class="toggle-button">
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
                             <p class="content-text">Generally speaking, it is best to dress in smart casual attire. You should avoid wearing open-toed shoes or flip-flops. It is also recommended that you wear layers in case the temperature inside the winery is different than outside.</p>
                         </li>
-                        <li>
-                            <div>
-                                <p class="questions">What payment options do you provide?</p>
-                                <button></button>
+                        <li class="list-item">
+                            <div class="question">
+                                <p class="question-text">What payment options do you provide?</p>
+                                <div class="toggle-button">
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
                             <p class="content-text">We offer a variety of payment methods. We accept cash, checks, and the majority of credit cards such as Visa, MasterCard, and American Express.</p>
                         </li>
-                        <li>
-                            <div>
-                                <p class="questions">Can I bring my own food and drinks?</p>
-                                <button></button>
+                        <li class="list-item">
+                            <div class="question">
+                                <p class="question-text">Can I bring my own food and drinks?</p>
+                                <div class="toggle-button">
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
                             <p class="content-text">Sorry, we do not allow outside food or beverages, but we assure you that we provide many food options during our tastings.</p>
                         </li>
-                        <li>
-                            <div>
-                                <p class="questions">Do I need to make a reservation?</p>
-                                <button></button>
+                        <li class="list-item">
+                            <div class="question">
+                                <p class="question-text">Do I need to make a reservation?</p>
+                                <div class="toggle-button">
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
                             <p class="content-text">Yes, it's better to make a reservation if you want to join our guided tour or wine tasting. Some of the events are available for club members only.</p>
                         </li>
-                        <li>
-                            <div>
-                                <p class="questions">What does membership mean?</p>
-                                <button></button>
+                        <li class="list-item">
+                            <div class="question">
+                                <p class="question-text">What does membership mean?</p>
+                                <div class="toggle-button">
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
                             <p class="content-text">Membership in our club provides the complimentary delivery of our wines to your doorstep, participation in private events, tastings and so on.</p>
                         </li>
-                        <li>
-                            <div>
-                                <p class="questions">Can I buy wine right at your winery?</p>
-                                <button></button>
+                        <li class="list-item">
+                            <div class="question">
+                                <p class="question-text">Can I buy wine right at your winery?</p>
+                                <div class="toggle-button">
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
                             <p class="content-text">Of course, we have a shop at the tasting room. You can buy any wines you like or visit one of the authorized stores in the USA.</p>
                         </li>
                     </ul>
                 </div>
             </div>
-        </section>
+           </div>
+        </div>
+    </section>
 
 
 
@@ -250,6 +265,6 @@
                 </div>
             </div>
         </footer>
-    </div>
+
 </body>
 </html>

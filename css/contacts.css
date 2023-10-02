@@ -119,6 +119,10 @@ form button {
     text-align: center;
     color: #fff;
 }
+
+.guided-tours__content {
+    width: 50%;
+}
 .guided-tours__title {
     font-family: 'Cormorant Infant', serif;
     font-size: 30px;
@@ -158,8 +162,10 @@ form button {
 }
 .guided-tours__question {
     margin-top: 60px;
+    width: 50%;
 }
 .list-item {
+    
     list-style-type: none;
     padding: 10px 0;
     border-bottom: 1px solid var(--sub-text-color);
@@ -172,6 +178,7 @@ form button {
     width: 15px;
     height: 15px;
     margin-left: 15px;
+    cursor: pointer;
 }
 .toggle-button span {
     display: block;
@@ -372,6 +379,9 @@ hr {
     .guided-tours__question {
         margin-top: 0;
    }
+   .question {
+    justify-content: space-between;
+}
     .working-ours {
         left: 40%;
    }
@@ -424,6 +434,9 @@ hr {
         flex-direction: column;
         width: 100%;
    }
+   .question {
+    justify-content: space-between;
+}
     .footer__routes {
         display: block;
    }
@@ -483,4 +496,12 @@ hr {
         bottom: 200px;
         height: 250px;
    }
+}
+
+.answear {
+    display: none;
+}
+
+.answear_active {
+    display: block;
 }

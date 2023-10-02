@@ -84,7 +84,13 @@
 							<li class="conditions-item">Pets are not allowed in the tasting room.</li>
 						</ul>
 					</div>
-					<form action="#"> <input name="name" type="text" placeholder="Enter your full name*"> <input name="number-phone" type="tel" placeholder="Enter your phone number*"> <input name="email" type="email" placeholder="Enter your e-mail"> <textarea name="massage" cols="30" rows="5" placeholder="Type your message"></textarea> <button type="submit">Send</button> </form>
+					<form id="contact-form" action="https://formspree.io/f/xoqopwol" method="POST">
+						<input name="name" type="text" placeholder="Enter your full name*">
+						<input name="number-phone" type="tel" placeholder="Enter your phone number*"> <input name="email" type="email" placeholder="Enter your e-mail">
+						<textarea name="massage" cols="30" rows="5" placeholder="Type your message"></textarea>
+						<button id="contact-form-button">Send</button>
+						<div id="contact-form-status"></div>
+					</form>
 				</div>
 				<p class="content-text">It is strongly recommended that you book in advance if you wish to attend a wine tasting event. This ensures that you have a place booked and means that the event organizers can plan accordingly. Booking in advance also means that you can take advantage of any <u> discounts or special offers</u> that may be available. Our wine tasting events are in high demand and it is important to ensure that you are able to attend by booking your place in advance.</p>
 				<div class="guided-tours">

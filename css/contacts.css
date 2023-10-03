@@ -143,9 +143,7 @@ form button:active{
     margin-top: 15px;
    }
 
-.guided-tours__content {
-    width: 50%;
-}
+
 .guided-tours__title {
     font-family: 'Cormorant Infant', serif;
     font-size: 30px;
@@ -185,7 +183,7 @@ form button:active{
 }
 .guided-tours__question {
     margin-top: 60px;
-    width: 50%;
+ 
 }
 .list-item {
     
@@ -394,6 +392,9 @@ hr {
         width: 120%;
         height: 490px;
    }
+   .guided-tours__content {
+    width: 50%;
+}
   
 
     .guided-tours {
@@ -404,6 +405,12 @@ hr {
     .guided-tours__question {
         margin-top: 0;
    }
+
+   .guided-tours__question {
+    margin-top: 60px;
+    width: 50%;
+}
+
    .question {
     justify-content: space-between;
 }
@@ -450,6 +457,20 @@ hr {
    }
 }
 @media (min-width: 1024px) {
+
+    .header__nav__contacts__wrapper {
+        width: 95%;
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+
+    .header__nav__contacts__wrapper .header__menu-link{
+        font-size: 14px;
+    }
+
+    .contacts__page .welcome__info{
+        margin-top: 200px;
+   }
+
     .contacts__distribution .wrapper {
         width: 100%;
         padding-left: 30px;

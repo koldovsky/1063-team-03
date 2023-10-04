@@ -12,14 +12,10 @@
 
 .tasting__wrapper {
     padding: 0 15px;
-    /* видалити margin-left: 10%;  */
     margin-left: 10%; 
-    /* видалити закоментовані нижче властивості */
-    /* height: 55%;
-    width: 100%; */
     display: flex;
     flex-direction: column;
-    /* додати align-items: center; */
+    align-items: center; 
 }
 
 .tasting__white {
@@ -46,11 +42,6 @@
 .tasting__clock {
     text-align: center;
     width: 50%;
-    /* видалити */
-    /* position: relative;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%) */
 }
 
 #clock {
@@ -60,8 +51,7 @@
     
 }
 
-@media (min-width: 600px) {
-    /* змінити вирівнювання елементів 
+@media (min-width: 600px) { 
     .tasting__wrapper {
         align-items: flex-start;
     } */
@@ -75,44 +65,9 @@
     .tasting__white {
         width: 30%;
     }
-/* 
-    змінити ширину div годинника 
     .tasting__clock {
     width: 30%;
-    } */
+    }
 }
-
-
-/* все нижче видалити */
-/* @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-    .tasting__wrapper {
-        width: 80%;
-        height: 40%;
-        margin-left: 10%;
-        line-height: 22.5px;
-        background-size: 50%;
-    }  
-} */
-
-
-
- /* @media (min-width: 900px) {  
-    .tasting__wrapper {
-       
-        line-height: 22.5px;
-        width: 40vw;
-        
-    }
-}        
-        
-@media (min-width: 320px) {
-    .tasting__wrapper {
-        width: 40vh;
-        height: 60vh;
-        background-color: var(--section-background-color);
-        padding: 40px;
-        padding-top: 50px;
-    }
-} */
 
 

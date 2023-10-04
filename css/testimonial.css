@@ -39,7 +39,7 @@
     width: 70px;
 }
 
-hr {
+.testimonials hr {
     margin: 15px 0;
     width: 100%;
     height: 1px;
@@ -201,8 +201,5 @@ hr {
         flex-wrap: nowrap;
     }
 
-    /* .testimonials__events img {
-        width: 200px;
-    } */
 }
 

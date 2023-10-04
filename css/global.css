@@ -1,72 +1,70 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 img {
-  display: block;
-  width: 100%;
+	display: block;
+	width: 100%;
 }
 
 :root {
-    --brand-color: #bc6e44;
-    --main-text-color: #2a2824;
-    --sub-text-color: #837d71;
-    --section-background-color: #faf8f2;
-    --links-text-color:#94929E;
-    --container-menu-active:#13100be6;
-    --background-header-contact-us:#0c0c0c80;
-    font-family: 'Spectral', serif;
+	--brand-color: #bc6e44;
+	--main-text-color: #2a2824;
+	--sub-text-color: #837d71;
+	--section-background-color: #faf8f2;
+	--links-text-color: #94929e;
+	--container-menu-active: #0b0906e6;
+	--background-header-contact-us: #0c0c0c80;
+	font-family: "Spectral", serif;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .wrapper {
-  /* width: 1200px; */
-  max-width: 1200px;
-  margin: 0 auto;
+	/* width: 1200px; */
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 /* Text style for mobile-first */
 .section-heading {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
 .heading__title {
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 20px;
-  letter-spacing: 1.5px;
-  color: var(--brand-color);
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 20px;
+	letter-spacing: 1.5px;
+	color: var(--brand-color);
 }
 
 .heading__subtitle {
-  font-size: 38px;
-  font-size: 500;
-  line-height: 42px;
-  font-family: "Cormorant Infant", serif;
-  color: var(--main-text-color);
-  margin-top: 10px;
+	font-size: 38px;
+	font-weight: 500;
+	line-height: 42px;
+	font-family: "Cormorant Infant", serif;
+	color: var(--main-text-color);
+	margin-top: 10px;
 }
 
 .heading__text {
-  font-size: 17px;
-  font-family: "Spectral", serif;
-  font-weight: 500;
-  line-height: 28px;
-  color: #837d71;
-  margin-top: 20px;
+	font-size: 17px;
+	font-family: "Spectral", serif;
+	font-weight: 500;
+	line-height: 28px;
+	color: #837d71;
+	margin-top: 20px;
 }
 /* Text style for mobile-first */
-
-

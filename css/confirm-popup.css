@@ -1,0 +1,60 @@
+.confirm-popup-background {
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	z-index: 100;
+	background: rgba(24, 24, 24, 0.7);
+}
+.un-active-popup {
+	display: none;
+}
+.confirm-popup {
+	width: 300px;
+	margin: auto;
+	height: 200px;
+	background: var(--section-background-color);
+}
+.popup-info__text {
+	margin-top: 20px;
+	font-family: "Cormorant Infant";
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-weight: 500;
+	font-family: "Spectral", serif;
+	color: black;
+}
+.popup-info__text span {
+	width: 40px;
+	margin: 0 auto;
+	margin-top: 10px;
+	height: fit-content;
+	padding: 5px;
+	background: var(--brand-color);
+	color: white;
+}
+.confirm-popup__items {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.popup-info__button {
+	color: black;
+	cursor: pointer;
+	font-family: "Spectral", serif;
+	width: fit-content;
+	font-size: 20px;
+	font-weight: 300;
+	margin: auto auto 15px;
+	border: 1px solid var(--brand-color);
+	padding: 10px 15px;
+}
+.popup-info__button:hover {
+	background: var(--brand-color);
+	color: white;
+}

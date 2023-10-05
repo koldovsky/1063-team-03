@@ -1,0 +1,79 @@
+.benefits-section {
+    background-color: var(--section-background-color);
+}
+.benefits-section .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits__left {
+    width: 100%;
+    background-image: url(../img/benefits.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.benefits-section .section-heading {
+    margin-top: 50px;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.benefits-section .benefits__list {
+    margin-top: 50px;
+}
+
+.benefits-section .benefits__item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: var(--section-background-color);
+}
+
+.benefits__item img {
+    width: 46px;
+}
+
+.benefits-item-content {
+    text-align: left;
+}
+
+.benefits__item-title {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--main-text-color);
+}
+
+.benefits__item-description {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--sub-text-color);
+}
+
+.benefits-section .blog__call-to-action {
+    margin-top: 0;
+}
+@media (min-width: 600px) {
+    .benefits-section .wrapper {
+        flex-direction: row;
+        gap: 30px;
+    }
+    .benefits__left {
+        width: 50%;
+    }
+
+    .benefits__right {
+        width: 50%;
+    }
+
+    .benefits__left img {
+       height: 100%;
+       background-size: cover;
+    }
+}

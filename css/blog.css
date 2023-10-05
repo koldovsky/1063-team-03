@@ -1,0 +1,163 @@
+.blog {
+    background-color: var(--section-background-color);
+}
+
+.blog .wrapper {
+    padding: 5px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.blog__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog .news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 380px;
+    padding: 60px 40px;
+}
+
+.blog .news-date {
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: var(--sub-text-color);
+}
+
+.blog .news-title {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: var(--main-text-color);
+    margin-top: 15px;
+}
+
+.blog .news-text {
+    font-family: 'Spectral', serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: var(--sub-text-color);
+    margin-top: 25px;
+}
+
+.blog .read-more {
+    font-family: 'Spectral', serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    color: var(--brand-color);
+    margin-top: 10px;
+}
+/* 
+.blog .photo-news {
+    min-height: 290px;
+} */
+
+.photo-news-wine {
+    min-height: 290px;
+    background-image: url(../img/testimonials/news-vine-man.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.photo-news-shelf {
+    min-height: 290px;
+    background-image: url(../img/testimonials/news-vine-shelf.png);
+    background-position: center;
+    background-size: cover;
+} 
+
+.photo-news-field {
+    min-height: 290px;
+    background-image: url(../img/testimonials/news-vine-field.png);
+    background-position: center;
+    background-size: cover;
+} 
+
+.blog__call-to-action {
+    margin-top: 40px;
+    padding: 45px 25px;
+    background-color: var(--brand-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action__title {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.call-to-action__text {
+    font-family: 'Spectral', serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.call-to-action__button {
+    padding: 12px 19px;
+    border: 2px solid #fff;
+    font-family: 'Spectral', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+   
+}
+
+
+@media (min-width: 600px) {
+    .blog {
+        padding-top: 100px;
+    }
+    .blog__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .text-news-shelf {
+        grid-column: 2 / 3;
+    }
+
+    .photo-news-shelf {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+}
+
+@media (min-width: 1400px) {
+    .blog__content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .text-news-shelf {
+        grid-column: 3 / 4;
+    }
+}

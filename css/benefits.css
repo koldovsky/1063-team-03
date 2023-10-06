@@ -1,0 +1,20 @@
+.benefits { 
+    font-family: Spectral, serif;
+    font-size: 12 px;
+    font-weight: 700;
+    letter-spacing: 2.4 px;
+    line-height: 20.4 px;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--brand-color);
+}
+
+.heading__subtitle {
+    margin-top: 20 px;
+    display: block;
+    font-size: 38 px;
+    font-weight: 500;
+    line-height: 41.8 px;
+    text-align: left;
+}
+

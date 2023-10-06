@@ -2,12 +2,29 @@
   display: block;
   margin: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-top: 30px;
   padding-bottom: 105px;
   padding-left: 20px;
   padding-right: 20px;
   text-wrap: wrap;
+}
+
+.gourmand-choice__carousel--slide {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  gap: 100px;
+  margin: auto;
+}
+
+.gourmand-choice .button {
+  background-color: white;
+  max-width: 50px;
+}
+.gourmand-choice .btn {
+  background-color: white;
+  max-width: 50px;
 }
 
 @media (min-width: 1000px) {
@@ -44,10 +61,10 @@
 .gourmand-choice__carousel {
   margin-top: 20px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: auto;
+  gap: 5px;
+  height: 600px;
 }
 
 .gourmand-choice .wine-card {
@@ -57,7 +74,9 @@
 }
 
 .wine-card .wine-card__image {
-  width: 50%;
+  max-height: 50vh;
+  height : 60vw;
+  width: auto;
 }
 
 .wine-card .wine-card__product--name {
@@ -96,16 +115,3 @@
   background-color: black;
 }
 
-@media (min-width: 768px) {
-  .gourmand-choice .gourmand-choice__carousel {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 1000px) {
-  .gourmand-choice .gourmand-choice__carousel {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}

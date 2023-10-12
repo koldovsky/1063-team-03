@@ -4,9 +4,25 @@
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    
+    
 }
 
+.tasting__wrapper {
+    padding: 0 15px;
+    margin-left: 10%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 
+.tasting__white {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 50px;
+}
 
 .tasting__text {
     .tasting__title {
@@ -16,22 +32,41 @@
     .section__subtitle {
         color: var(--main-text-color);
     }
+
+    .highlighted__text {
+        content: ".";
+        color: var(--brand-color);
+    }
 }
 
-@media (max-width: 768px) {  
-    .tasting__white.square {
-        margin-left: 10%;
-        line-height: 22.5px;
+.tasting__clock {
+    text-align: center;
+    width: 50%;
+}
+
+#clock {
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    
+}
+
+@media (min-width: 600px) { 
+    .tasting__wrapper {
+        align-items: flex-start;
+    } */
+
+    .tasting__white {
+        width: 50%;
     }
-}        
-        
-@media (min-width: 200px) {
-    .tasting__white.square {
-        width: 50vh;
-        height: 60vh;
-        background-color: var(--section-background-color);
-        padding: 40px;
-        padding-top: 50px;
+}
+
+@media (min-width: 1024px) {
+    .tasting__white {
+        width: 30%;
+    }
+    .tasting__clock {
+    width: 30%;
     }
 }
 

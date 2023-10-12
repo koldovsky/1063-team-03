@@ -19,7 +19,8 @@
 
 .footer__logo-wrapper {
 	position: relative;
-	max-width: 570px;
+	width: 280px;
+	padding-top: 50px;
 }
 
 .footer__logo {
@@ -32,6 +33,7 @@
 	color: rgba(255,255,255, 0.6);
 	font-size: 14px;
 	
+	text-align: center;
 }
 
 
@@ -111,6 +113,11 @@
 
 
 @media (max-width: 995px) {
+
+	.footer__wrapper{
+		padding-bottom: 50px;
+	}
+	
 	.footer__routes {
 		flex-direction: column;
 	}

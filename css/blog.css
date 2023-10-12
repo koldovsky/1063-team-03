@@ -1,3 +1,7 @@
+.blog {
+    background-color: var(--section-background-color);
+}
+
 .blog .wrapper {
     padding: 5px;
     margin: auto;
@@ -67,7 +71,7 @@
 
 .photo-news-wine {
     min-height: 290px;
-    background: url(/img/blog/news-wine-man.jpg);
+    background-image: url(../img/testimonials/news-vine-man.png);
     background-position: center;
     background-size: cover;
 
@@ -75,14 +79,14 @@
 
 .photo-news-shelf {
     min-height: 290px;
-    background: url(/img/blog/news-wine-shelf.jpg);
+    background-image: url(../img/testimonials/news-vine-shelf.png);
     background-position: center;
     background-size: cover;
 } 
 
 .photo-news-field {
     min-height: 290px;
-    background: url(/img/blog/news-wine-field.jpg);
+    background-image: url(../img/testimonials/news-vine-field.png);
     background-position: center;
     background-size: cover;
 } 
@@ -126,4 +130,34 @@
     text-align: center;
     color: #fff;
    
+}
+
+
+@media (min-width: 600px) {
+    .blog {
+        padding-top: 100px;
+    }
+    .blog__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .text-news-shelf {
+        grid-column: 2 / 3;
+    }
+
+    .photo-news-shelf {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+}
+
+@media (min-width: 1400px) {
+    .blog__content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .text-news-shelf {
+        grid-column: 3 / 4;
+    }
 }

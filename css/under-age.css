@@ -1,0 +1,41 @@
+@import url(./fonts.css);
+.under-age__body {
+    background-color: #f9f5f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+}
+
+.under-age__h2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 58px;
+    color: #2a2824;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.under-age__p {
+    font-family: 'Spaectral', serif;
+    font-size: 19px;
+    color: #837d71;
+    text-align: center;
+}
+
+.under-age__container {
+    padding: 0 24px;
+    max-width: 1170px;
+}
+
+.under-age__custom-text {
+    font-style: italic;
+}
+
+.under-age__custom-dot {
+    color: #bc6e44;
+}
+
+
+@import url(./fonts.css);

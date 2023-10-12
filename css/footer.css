@@ -19,8 +19,7 @@
 
 .footer__logo-wrapper {
 	position: relative;
-	width: 280px;
-	padding-top: 50px;
+	width: 500px;
 }
 
 .footer__logo {
@@ -133,6 +132,20 @@
 	.footer__span {
 		padding: 16px 0;
 	}
+	
+	.route {
+		font-size: 17px;
+	}
+
+	.footer__routes-wrapper {
+		justify-content: space-between;
+		padding-left: 120px;
+	}
+
+	.footer__creators {
+		margin-top: 0px;
+	}
+	
 }
 
 
@@ -152,8 +165,9 @@
 	}
 
 	.footer__routes-wrapper {
-		margin-bottom: 20px;
 		flex-direction: column;
+		align-items: center;
+		padding-left: 0px;
 	}
 
 	.footer__logo-wrapper {
@@ -161,21 +175,22 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		width: 100vw;
 	}
 
 	.footer__wrapper {
 		height: auto;
 	}
 
-	.footer__creators {
-		display: flex;
-		align-items: center;
-	}
 	
 	.footer__logo-info {
 		color: rgba(255,255,255, 0.6);
 		font-size: 14px;
 		padding: 25px 0;
+	}
+
+	.footer__creators {
+		margin-top: 40px;
 	}
 }
 

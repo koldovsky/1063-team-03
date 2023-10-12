@@ -4,4 +4,5 @@ document.addEventListener("partialsLoaded", () => {
 	import("./gourmand-choice_carousel.js");
 	import("./categories_link_text.js");
 	import("./testimonials-carousel.js");
+	import("./popup-age.js")
 });

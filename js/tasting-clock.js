@@ -7,8 +7,8 @@ function updateClock() {
     const timeString = `${hours}:${minutes}:${seconds}`;
     clockElement.textContent = timeString;
 }
-  
-  
+
+
 setInterval(updateClock, 1000);
-  
+
 updateClock();
